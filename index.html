@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#CensuraNão</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(90deg, #1e90ff, #32cd32);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+            max-width: 480px;
+            width: 100%;
+        }
+
+        .container h1 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        #btn {
+            background-color: #1e90ff;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: background-color 0.3s;
+        }
+
+        #btn:hover {
+            background-color: #32cd32;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>#CensuraNão</h1>
+        <p>Proteja-se contra a censura e mantenha sua privacidade no Telegram, adicionando nosso proxy fácil de usar.</p>
+        <button id="btn" onclick="window.location.href='tg://proxy?server=mtproto.com.br&port=443&secret=ee65d0d4e495c23b7e32b9ac6e2f11f2a56d7470726f746f2e636f6d2e6272'">Adicionar Proxy ao Telegram</button>
+    </div>
+</body>
+</html>
